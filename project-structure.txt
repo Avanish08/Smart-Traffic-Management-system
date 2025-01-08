@@ -1,0 +1,8 @@
+Smart-Traffic-Management-System/
+├── frontend/
+├── backend/
+├── iot-devices/
+├── documentation/
+├── config/
+├── tests/
+└── README.md
