@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Smart Traffic Management System">
+    <mxGraphModel dx="1068" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" value="" style="group" vertex="1" connectable="0">
+          <mxGeometry width="827" height="1169" as="geometry"/>
+        </mxCell>
+        <mxCell id="1" value="Smart Traffic Management System" style="group" vertex="1" connectable="0">
+          <mxGeometry width="827" height="1169" as="geometry"/>
+        </mxCell>
+
+        <!-- User Interface -->
+        <mxCell id="2" value="User Interface (Mobile/Web Application)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#5C99B2;" vertex="1" connectable="1">
+          <mxGeometry x="0.1" y="0.05" width="250" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Notification Service -->
+        <mxCell id="3" value="Notification Service (Alerts and Push Notifications)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#5C99B2;" vertex="1" connectable="1">
+          <mxGeometry x="0.1" y="0.15" width="250" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- API Gateway -->
+        <mxCell id="4" value="API Gateway (Exposes services for external apps)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#5C99B2;" vertex="1" connectable="1">
+          <mxGeometry x="0.1" y="0.25" width="250" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Traffic Data Ingestion Service -->
+        <mxCell id="5" value="Traffic Data Ingestion Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#5C99B2;" vertex="1" connectable="1">
+          <mxGeometry x="0.1" y="0.35" width="250" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Traffic Prediction Engine -->
+        <mxCell id="6" value="Traffic Prediction Engine (ML/AI)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#5C99B2;" vertex="1" connectable="1">
+          <mxGeometry x="0.35" y="0.35" width="250" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Route Optimization Engine -->
+        <mxCell id="7" value="Route Optimization Engine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#5C99B2;" vertex="1" connectable="1">
+          <mxGeometry x="0.6" y="0.35" width="250" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Real-Time Data Storage -->
+        <mxCell id="8" value="Real-Time Data Storage (Time-Series DB)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#5C99B2;" vertex="1" connectable="1">
+          <mxGeometry x="0.1" y="0.45" width="250" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Traffic Prediction Models -->
+        <mxCell id="9" value="Traffic Prediction Models (ML/AI)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#5C99B2;" vertex="1" connectable="1">
+          <mxGeometry x="0.35" y="0.45" width="250" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Historical Data Storage -->
+        <mxCell id="10" value="Historical Data Storage (DB)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#5C99B2;" vertex="1" connectable="1">
+          <mxGeometry x="0.6" y="0.45" width="250" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Message Broker -->
+        <mxCell id="11" value="Message Broker (Kafka/RabbitMQ)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#5C99B2;" vertex="1" connectable="1">
+          <mxGeometry x="0.35" y="0.55" width="250" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Microservices Communication -->
+        <mxCell id="12" value="Microservices Communication" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#5C99B2;" vertex="1" connectable="1">
+          <mxGeometry x="0.6" y="0.55" width="250" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Traffic Sensors -->
+        <mxCell id="13" value="Traffic Sensors (Cameras, GPS)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#5C99B2;" vertex="1" connectable="1">
+          <mxGeometry x="0.1" y="0.65" width="250" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Connect the components -->
+        <mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonal=1;jettySize=auto;html=1;exitX=0.5;exitY=0.15;exitDx=0;exitDy=0" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonal=1;jettySize=auto;html=1;exitX=0.5;exitY=0.25;exitDx=0;exitDy=0" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonal=1;jettySize=auto;html=1;exitX=0.5;exitY=0.35;exitDx=0;exitDy=0" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonal=1;jettySize=auto;html=1;exitX=0.5;exitY=0.45;exitDx=0;exitDy=0" edge="1" parent="1" source="5" target="8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonal=1;jettySize=auto;html=1;exitX=0.5;exitY=0.45;exitDx=0;exitDy=0" edge="1" parent="1" source="6" target="9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonal=1;jettySize=auto;html=1;exitX=0.5;exitY=0.45;exitDx=0;exitDy=0" edge="1" parent="1" source="7" target="10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonal=1;jettySize=auto;html=1;exitX=0.5;exitY=0.55;exitDx=0;exitDy=0" edge="1" parent="1" source="8" target="11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonal=1;jettySize=auto;html=1;exitX=0.5;exitY=0.65;exitDx=0;exitDy=0" edge="1" parent="1" source="11" target="12">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonal=1;jettySize=auto;html=1;exitX=0.5;exitY=0.75;exitDx=0;exitDy=0" edge="1" parent="1" source="12" target="13">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
